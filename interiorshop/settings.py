@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import os
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +26,7 @@ SECRET_KEY = 't=ifh#$h47j=3ptgth7^rq8*g*$*u5h@0eh7y52v=r^5%tv1&$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 STRIPE_PUB_KEY = 'pk_test_51Iu8UWIHw9kjJtYw7Bz3Im4bEpQd7xvzlxEF1qzn9Fs8TzmnDbHfTiVPwIln3z3fFKrzOrq865OYtZwUpZhBJOm800oelQZCjm'
 STRIPE_SECRET_KEY = 'sk_test_51Iu8UWIHw9kjJtYw6c61ryCcstcgtOyZpuHthndb7xvMjsJpDu6o1hFsjvTWbjthVOE87iyCSt0GsHjUjwZb9stF00UCCwbK2u'
